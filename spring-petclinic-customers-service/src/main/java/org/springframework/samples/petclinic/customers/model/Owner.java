@@ -107,7 +107,7 @@ public class Owner {
     }
 
     public String getCity() {
-        return this.city;
+        return this.city + " - US";
     }
 
     public void setCity(String city) {
