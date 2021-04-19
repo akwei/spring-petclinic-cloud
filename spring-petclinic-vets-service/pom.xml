@@ -17,7 +17,7 @@
 	</parent>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<assertj.version>3.11.1</assertj.version>
 
 		<spring-boot.version>2.3.1.RELEASE</spring-boot.version>
@@ -191,7 +191,7 @@
 				</configuration>
 				<executions>
 					<execution>
-						<!-- Spring Boot Actuator displays build-related information if a 
+						<!-- Spring Boot Actuator displays build-related information if a
 							META-INF/build-info.properties file is present -->
 						<goals>
 							<goal>build-info</goal>
