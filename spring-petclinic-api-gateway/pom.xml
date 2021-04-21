@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>org.springframework.samples.petclinic.api</groupId>
-	<artifactId>spring-petclinic-api-gateway</artifactId>
+	<artifactId>spring-petclinic-api-gateway-cloud</artifactId>
 	<packaging>jar</packaging>
 	<description>Spring PetClinic API Gateway</description>
 
@@ -22,7 +22,7 @@
 
 		<spring-boot.version>2.3.1.RELEASE</spring-boot.version>
 		<spring-cloud.version>Hoxton.SR6</spring-cloud.version>
-		<wavefront.version>2.0.1-SNAPSHOT</wavefront.version>
+		<wavefront.version>2.0.1</wavefront.version>
 
 		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 

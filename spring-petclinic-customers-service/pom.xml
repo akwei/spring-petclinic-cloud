@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>org.springframework.samples.petclinic.client</groupId>
-	<artifactId>spring-petclinic-customers-service</artifactId>
+	<artifactId>spring-petclinic-customers-service-cloud</artifactId>
 	<packaging>jar</packaging>
 	<description>Spring PetClinic Customers Service</description>
 
@@ -23,7 +23,7 @@
 
 		<spring-boot.version>2.3.1.RELEASE</spring-boot.version>
 		<spring-cloud.version>Hoxton.SR5</spring-cloud.version>
-		<wavefront.version>2.0.1-SNAPSHOT</wavefront.version>
+		<wavefront.version>2.0.1</wavefront.version>
 
 		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 		<spring-boot.build-image.imageName>${REPOSITORY_PREFIX}/customers-service</spring-boot.build-image.imageName>

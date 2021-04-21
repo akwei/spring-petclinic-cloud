@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework.samples.petclinic.vets</groupId>
-	<artifactId>spring-petclinic-vets-service</artifactId>
+	<artifactId>spring-petclinic-vets-service-cloud</artifactId>
 	<packaging>jar</packaging>
 	<description>Spring PetClinic Vets Service</description>
 
@@ -22,7 +22,7 @@
 
 		<spring-boot.version>2.3.1.RELEASE</spring-boot.version>
 		<spring-cloud.version>Hoxton.SR6</spring-cloud.version>
-		<wavefront.version>2.0.1-SNAPSHOT</wavefront.version>
+		<wavefront.version>2.0.1</wavefront.version>
 
 		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
