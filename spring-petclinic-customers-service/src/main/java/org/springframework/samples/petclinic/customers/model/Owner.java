@@ -99,7 +99,7 @@ public class Owner {
     }
 
     public String getAddress() {
-        return this.address;
+        return this.address + " - US";
     }
 
     public void setAddress(String address) {
